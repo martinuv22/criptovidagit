@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <link rel="stylesheet" href="./style.css/estilo.css">
     <title>Cripto Vida</title>
@@ -25,7 +27,7 @@
     </header>
 
     <main>
-        <h1>Cripto Vida</h1>
+        <h1 data-aos="fade-right" data-aos-duration="80000">Cripto Vida</h1>
         <p class="main_p1"> Cripto es un espacio donde nos encontramos con la misión de lograr y permitir a todas las personas que comparte la pasión por las criptomondes aprender más sobre ello o compartir su experiencia. Como así también ayudar aquellos que quieran unirse
             a introducirse a este nuevo mundo de la mejor manera. Desde ahora en más seremos compañeros en esta aventura de Cripto Pasion, espero que estén preparados para disfrutar mientras aprendemos.
             <p>
@@ -33,15 +35,16 @@
                     <div class="contenido__index">
                         <p class="body__p"> Hace clip en esta imagen de abajo y empeza aprender mas de como vivir el mundo de las criptomonedas:</p>
 
-                        <a href="./pages/info.html"><img id="div__imagen" src="./imagenes/criptos2.jpg" alt="imagen de criptomondas"></a>
+                        <a href="./pages/info.html"><img data-aos="zoom-in-right" data-aos-duration="800000" data-aos-delay="100" id="div__imagen" src="./imagenes/criptos2.jpg" alt="imagen de criptomondas"></a>
                     </div>
                     <div class="contenido__index">
                         <p class="body__p"> Hace clip en la imagen de abajo para saber en cual de las criptomonedas recominda cripto mundo inverir:</p>
 
-                        <a href="./pages/recomendacion.html"><img id="div__imagen" src="./imagenes/criptografico.png" alt="imagen de criptomondas"></a>
+                        <a href="./pages/recomendacion.html"><img data-aos="zoom-in-left" data-aos-duration="80000" data-aos-delay="100" id="div__imagen" src="./imagenes/criptografico.png" alt="imagen de criptomondas"></a>
                     </div>
                 </div>
     </main>
+
 
 
 
@@ -50,6 +53,9 @@
     </footer>
     </div>
 </body>
+<script>
+    AOS.init();
+</script>
 
 
 </html>
