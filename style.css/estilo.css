@@ -243,6 +243,11 @@
                 color: rgb(6, 6, 221);
                 background-color: goldenrod;
                 border: solid 0.5rem brown;
+                transition: padding 3s;
+            }
+            
+            .header__button:hover {
+                padding: 3rem;
             }
             /*Para todas las paginas*/
             
