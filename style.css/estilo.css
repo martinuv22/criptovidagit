@@ -148,13 +148,24 @@
             }
             /*Pagina donde comprar*/
             
+            .div__section2 {
+                align-items: center;
+            }
+            
             .header__section2 {
                 text-align: center;
+                justify-content: center;
             }
             
             .header__img3 {
-                width: 30rem;
                 height: 30rem;
+                width: 30rem;
+                transition: height 1s, width 1s;
+            }
+            
+            .header__img3:hover {
+                height: 50rem;
+                width: 50rem;
             }
             /* Pagina recomendacion*/
             
