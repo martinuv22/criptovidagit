@@ -40,6 +40,12 @@
             
             li {
                 display: inline;
+                background-color: goldenrod;
+                transition: background 3s;
+            }
+            
+            li:hover {
+                background-color: aliceblue;
             }
             
             a {
@@ -258,6 +264,9 @@
                 nav {
                     font-size: 1rem;
                 }
+                li {
+                    padding: 0.04rem;
+                }
                 a {
                     margin: 0.4rem;
                 }
@@ -295,6 +304,9 @@
                 /*para todas las paginas*/
                 nav {
                     font-size: 1.5rem;
+                }
+                li {
+                    padding: 1rem;
                 }
                 a {
                     margin: 0.7rem;
@@ -336,6 +348,9 @@
                 main {
                     font-size: 2.2rem;
                     text-align: center;
+                }
+                li {
+                    padding: 2rem;
                 }
                 a {
                     margin: 0rem 1rem;
