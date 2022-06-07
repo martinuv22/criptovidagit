@@ -1,0 +1,350 @@
+            @import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200&family=Poller+One&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200&family=Macondo&family=Poller+One&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200&family=Macondo&family=Poller+One&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200&family=Macondo&family=Oswald&family=Poller+One&display=swap');
+            html {
+                font-size: 62.5%;
+            }
+            
+            * {
+                padding: 0%;
+                margin: 0%;
+                box-sizing: border-box;
+            }
+            
+            body {
+                background-color: black;
+            }
+            
+            header {
+                padding: 4rem 0rem;
+            }
+            
+            nav {
+                font-family: 'Kodchasan', sans-serif;
+                background-color: goldenrod;
+                width: 100%;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                position: fixed;
+                top: 0%;
+                align-items: center;
+            }
+            
+            ul {
+                list-style-type: none;
+            }
+            
+            li {
+                display: inline;
+            }
+            
+            a {
+                text-decoration: none;
+                color: black;
+            }
+            
+            main {
+                color: rgb(6, 6, 221);
+                font-family: 'Kodchasan', sans-serif;
+                width: 100%;
+                text-align: left;
+                margin: 2rem;
+            }
+            
+            h1 {
+                padding: 2rem;
+                text-align: center;
+                margin-top: 3rem;
+            }
+            
+            h2 {
+                padding: 1.5rem;
+            }
+            
+            h3 {
+                padding: 1.2rem;
+            }
+            
+            p {
+                padding: 1rem;
+            }
+            /* para index*/
+            
+            .contenedor__index {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                justify-content: center;
+            }
+            
+            .hijo {
+                font-size: 1.5rem;
+                margin: 1rem;
+                align-items: center;
+            }
+            
+            .body__p {
+                color: rgb(235, 84, 15);
+            }
+            
+            #div__imagen {
+                margin: auto;
+                border-radius: 20%;
+                object-fit: cover;
+                width: 47rem;
+                height: 23rem;
+            }
+            
+            .main_p1 {
+                padding-top: 0.1rem;
+                padding-bottom: 1.5rem;
+            }
+            /* para pagina info*/
+            
+            .grilla__info {
+                height: 100vh;
+                display: grid;
+                grid-template-areas: "navegacion1" "contenido1" "inframe1" "pie1";
+                grid-template-columns: 1fr;
+                grid-template-rows: 15% auto auto 5rem;
+            }
+            
+            .navegacion__info {
+                grid-area: navegacion1;
+            }
+            
+            .contenido__info {
+                grid-area: contenido1;
+            }
+            
+            .section__info {
+                grid-area: inframe1;
+            }
+            
+            .pie__info {
+                grid-area: pie1;
+            }
+            
+            .section__contenido {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                height: 100vh;
+                align-items: center;
+            }
+            
+            .section__h3 {
+                font-size: 2rem;
+                color: rgb(235, 84, 15);
+            }
+            /*Pagina donde comprar*/
+            
+            .header__section2 {
+                text-align: center;
+            }
+            
+            .header__img3 {
+                width: 30rem;
+                height: 30rem;
+            }
+            /* Pagina recomendacion*/
+            
+            .grilla__recomendacion {
+                height: 100vh;
+                display: grid;
+                grid-template-areas: "navegacion2" "contenido2" "pie2";
+                grid-template-columns: 1fr;
+                grid-template-rows: 15% auto 5rem;
+            }
+            
+            .navegacion__recomendacion {
+                grid-area: navegacion2;
+            }
+            
+            .main__recomendacion {
+                grid-area: contenido2;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .pie__recomendacion {
+                grid-area: pie2;
+            }
+            /* pagina contacto*/
+            
+            .grilla__contacto {
+                height: 100vh;
+                display: grid;
+                grid-template-areas: "navegacion3" "contenido3" "pie3";
+                grid-template-columns: 1fr;
+                grid-template-rows: 5% auto 5%;
+            }
+            
+            .navegacion__contacto {
+                grid-area: navegacion3;
+            }
+            
+            .contenido__contacto {
+                grid-area: contenido3;
+                justify-content: center;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .pie__contacto {
+                grid-area: pie3;
+            }
+            
+            .h1__body {
+                color: rgb(6, 6, 221);
+                font-family: 'Kodchasan', sans-serif;
+            }
+            
+            #sectionf {
+                color: rgb(6, 6, 221);
+                padding: 8rem 30%;
+                font-family: 'Poller One', cursive;
+                text-align: center;
+                color: goldenrod;
+                display: flex;
+                flex-direction: column;
+                height: 40rem;
+            }
+            
+            .textarea {
+                padding: 5rem;
+            }
+            
+            .header__button {
+                padding: 1.2rem;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+                border-radius: 10%;
+                color: rgb(6, 6, 221);
+                background-color: goldenrod;
+                border: solid 0.5rem brown;
+            }
+            /*Para todas las paginas*/
+            
+            footer {
+                font-family: 'Kodchasan', sans-serif;
+                color: aliceblue;
+            }
+            /* media queries */
+            
+            @media (max-width: 500px) {
+                /* para index*/
+                .contenedor__index {
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr);
+                    justify-content: center;
+                }
+                .contenido__index {
+                    font-size: 1rem;
+                }
+                /* pagina donde comprar*/
+                .header__section2 {
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr);
+                }
+                /* Pagina contacto*/
+                #sectionf {
+                    font-size: 1rem;
+                }
+                /*para todas las paginas*/
+                nav {
+                    font-size: 1rem;
+                }
+                a {
+                    margin: 0.4rem;
+                }
+                main {
+                    font-size: 1rem;
+                }
+                footer {
+                    font-size: 1rem;
+                }
+                .header__logopaginas {
+                    width: 2rem;
+                    height: 2rem;
+                }
+            }
+            
+            @media (min-width: 501px) {
+                /* para index*/
+                .contenedor__index {
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr);
+                    justify-content: center;
+                }
+                .contenido__index {
+                    font-size: 1.5rem;
+                }
+                /* pagina donde comprar*/
+                .header__section2 {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                }
+                /* Pagina contacto*/
+                #sectionf {
+                    font-size: 1.2rem;
+                }
+                /*para todas las paginas*/
+                nav {
+                    font-size: 1.5rem;
+                }
+                a {
+                    margin: 0.7rem;
+                }
+                main {
+                    font-size: 2rem;
+                }
+                footer {
+                    font-size: 1.5rem;
+                }
+                .header__logopaginas {
+                    width: 3rem;
+                    height: 3rem;
+                }
+            }
+            
+            @media (min-width: 768px) {
+                /* para index*/
+                .contenedor__index {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    justify-content: center;
+                }
+                .contenido__index {
+                    font-size: 1.8rem;
+                }
+                /* pagina donde comprar*/
+                .header__section2 {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                }
+                #sectionf {
+                    font-size: 1.8rem;
+                }
+                /*para todas las paginas*/
+                nav {
+                    font-size: 2rem;
+                }
+                main {
+                    font-size: 2.2rem;
+                    text-align: center;
+                }
+                a {
+                    margin: 0rem 1rem;
+                }
+                footer {
+                    font-size: 2rem;
+                }
+                .header__logopaginas {
+                    width: 5rem;
+                    height: 5rem;
+                }
+            }
